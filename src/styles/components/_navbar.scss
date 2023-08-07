@@ -1,0 +1,95 @@
+@import "../variables.scss";
+@import "../libs/mixins.scss";
+.nav {
+  min-width: 100%;
+  border-bottom: 3px solid #016ae8;
+  &__btn_signin {
+    @include fz20;
+    padding: 5px 8px;
+    padding-right: 24px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(186, 247, 255, 0.86);
+    color: #0164e7;
+  }
+  &__btn_signup {
+    @include fz20;
+    padding: 5px 8px;
+    margin-left: -20px;
+    border-radius: 10px;
+    border: 1px solid #ff3d00;
+    background-color: #fd6815;
+    color: #fff;
+  }
+  &__btns-lang {
+    color: var(--unnamed, #fff);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    &:focus {
+      border: none;
+    }
+  }
+  &__top {
+    height: 50px;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    &__meditation {
+      margin-left: 380px;
+    }
+    &__helpers {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      gap: 30px;
+      margin-left: auto;
+      margin-right: 15px;
+      &__lang {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    &__r {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 55px;
+      ul {
+        height: 68px;
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        a {
+          color: #000;
+        }
+      }
+    }
+  }
+  .nav-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+}

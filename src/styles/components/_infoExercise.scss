@@ -1,0 +1,116 @@
+.infoExercise {
+  padding: 50px 0;
+  &_inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+    border-radius: 15px;
+    background-color: rgba(47, 200, 248, 0.18);
+    margin-top: 35px;
+    margin-bottom: 100px;
+    p {
+      color: #231f20;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 150% */
+    }
+  }
+  &_image {
+    width: 400px;
+    height: 308px;
+    border-radius: 30px;
+    border: 1px solid #0164e7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    img {
+      width: 399px;
+      height: 306px;
+      background-color: transparent;
+      border-radius: 30px;
+    }
+  }
+  &_imgs {
+    text-align: center;
+    margin-top: 30px;
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &_title {
+    font-family: "Montserrat";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #019cf4;
+  }
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+  &_without-flex-direction {
+    padding: 60px 0;
+    gap: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_text {
+    .text_name {
+      display: flex;
+      align-items: center;
+      margin-bottom: 28px;
+      gap: 20px;
+      h3 {
+        font-weight: 700;
+        font-size: 30px;
+        color: $black;
+      }
+      p {
+        font-weight: 400;
+        font-size: 25px;
+        color: $black;
+      }
+    }
+  }
+  &_inst {
+    div {
+      display: flex;
+      gap: 15px;
+      div {
+        margin-bottom: 30px;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid $blue;
+        background: $gradient-blue;
+        span {
+          position: absolute;
+          width: 1px;
+          top: 30px;
+          left: 14px;
+          height: 40px;
+          transform: rotate(180deg);
+          background: $gradient-blue;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 25px;
+      }
+    }
+  }
+  &_article {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: $dark;
+  }
+}

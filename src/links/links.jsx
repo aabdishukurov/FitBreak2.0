@@ -1,0 +1,18 @@
+export const links = {
+  mainPage: "/",
+  loginPage: "/login",
+  landingPage: "index",
+  registerPage: "/register",
+  personalPage: "/:name",
+  favoritesPage: "/favorites",
+  categories: "/categories",
+  InfoExercises: "/InfoExercises/:id",
+  timer: "/timer",
+  ex: "/ex",
+  buyPro: "/buyPro",
+  profile: "/profile",
+  notifications: "/notification",
+  statistics: "/statistics",
+  pro: "/pro",
+  nutritio: "/nutritio/:id",
+};

@@ -1,0 +1,74 @@
+.categoriesdemo {
+  &__block1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    color: #019cf4;
+  }
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 28px;
+    margin-left: -36px;
+    h2 {
+      color: #000;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  &__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    img {
+      position: absolute;
+      top: -6px;
+      left: -40px;
+    }
+    span {
+      color: #000;
+      font-family: Moon Dance;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__block2 {
+    display: flex;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 266px;
+    margin-top: 50px;
+    color: var(--general-main-color, #0164e7);
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 25px;
+    border: 3px solid var(--general-main-color, #0164e7);
+    background: var(--unnamed, #fff);
+  }
+}

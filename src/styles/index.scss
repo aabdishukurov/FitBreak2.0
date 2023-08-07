@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:wght@700&family=Montserrat:wght@400;500;600;700&display=swap");
+@import "./libs/variables.scss";
+@import "./libs/mixins.scss";
+@import "./libs/reset.scss";
+@import "./components/all";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
